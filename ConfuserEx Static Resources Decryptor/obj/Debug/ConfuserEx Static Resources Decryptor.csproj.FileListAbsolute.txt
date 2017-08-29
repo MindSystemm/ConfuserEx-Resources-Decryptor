@@ -1,0 +1,12 @@
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\ConfuserEx Static Resources Decryptor.exe.config
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\ConfuserEx Static Resources Decryptor.exe
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\ConfuserEx Static Resources Decryptor.pdb
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx_Static_Resources_Decryptor.Form1.resources
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx_Static_Resources_Decryptor.Properties.Resources.resources
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx Static Resources Decryptor.csproj.GenerateResource.Cache
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx Static Resources Decryptor.exe
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx Static Resources Decryptor.pdb
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\dnlib.dll
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\dnlib.pdb
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\bin\Debug\dnlib.xml
+c:\users\nicol\onedrive\documents\visual studio 2015\Projects\ConfuserEx Static Resources Decryptor\ConfuserEx Static Resources Decryptor\obj\Debug\ConfuserEx Static Resources Decryptor.csprojResolveAssemblyReference.cache
