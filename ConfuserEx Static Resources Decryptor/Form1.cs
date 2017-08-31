@@ -847,7 +847,6 @@ namespace ConfuserEx_Static_Resources_Decryptor
             {
                 foreach (MethodDef current2 in current.Methods)
                 {
-                    bool flag = !current2.HasBody;
                     if (current2.HasBody)
                     {
                         if (current2.Body.Instructions.Count > 100)
@@ -855,21 +854,25 @@ namespace ConfuserEx_Static_Resources_Decryptor
                             int local = current2.Body.Variables.Count;
                             if(local == 13)
                             {
-                                for (int i = 0; i < current2.Body.Instructions.Count; i++)
-                                {
+                                
                                     if (current2.Body.Instructions[5].OpCode == OpCodes.Ldtoken)
                                     {
                                         if (current2.Body.Instructions[6].OpCode == OpCodes.Call)
                                         {
                                             if (current2.Body.Instructions[0].OpCode == OpCodes.Ldc_I4)
                                             {
-                                                result = (uint)current2.Body.Instructions[0].GetLdcI4Value();
-                                                cctormethod = current2;
-                                                return result;
+                                            for (int i = 0; i < current2.Body.Instructions.Count; i++)
+                                            {
+                                                if (current2.Body.Instructions[i].OpCode == OpCodes.Callvirt && current2.Body.Instructions[i].Operand.ToString().Contains("AssemblyResolve") && current2.Body.Instructions[i-1].OpCode == OpCodes.Newobj)
+                                                {
+                                                    result = (uint)current2.Body.Instructions[0].GetLdcI4Value();
+                                                    cctormethod = current2;
+                                                    return result;
+                                                }
+                                            }
                                             }
                                         }
                                     }
-                                }
                             }
                         }
                     }
